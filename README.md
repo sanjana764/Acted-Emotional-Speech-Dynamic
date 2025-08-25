@@ -2,9 +2,43 @@
 
 
 
-## 📌 Project Overview
+## 📋 Project Overview
 
-This project builds a **Speech Emotion Recognition (SER) model** using the **Acted Emotional Speech Dynamic Database**. The system extracts **MFCC features** from audio files and trains a **deep learning model (LSTM-based)** to classify emotions such as anger, happiness, sadness, and others from speech.
+This project focuses on **emotion recognition in acted emotional speech** using dynamic analysis techniques. The goal is to develop a machine learning model that can accurately classify emotions from speech audio, with applications in human-computer interaction, mental health assessment, and entertainment technology.
+
+## 🎯 Objectives
+
+- **Emotion Classification**: Identify and classify emotions from speech audio
+- **Dynamic Analysis**: Implement real-time or near real-time emotion detection
+- **Feature Extraction**: Extract relevant acoustic features from speech signals
+- **Model Development**: Build and train machine learning models for emotion recognition
+- **Performance Evaluation**: Assess model accuracy across different emotion categories
+
+## 🚀 Features
+
+- **Multi-Emotion Classification**: Support for multiple emotion categories (e.g., happy, sad, angry, neutral, etc.)
+- **Real-time Processing**: Dynamic analysis capabilities for live audio streams
+- **Feature Engineering**: Advanced acoustic feature extraction from speech signals
+- **Model Training**: Comprehensive training pipeline with validation
+- **Performance Metrics**: Detailed evaluation and visualization of results
+
+## 🛠️ Technologies Used
+
+- **Python**: Core programming language
+- **Jupyter Notebook**: Development and experimentation environment
+- **Machine Learning Libraries**: 
+  - Scikit-learn
+  - TensorFlow/PyTorch (if applicable)
+  - NumPy, Pandas
+- **Audio Processing**: 
+  - Librosa
+  - PyAudio
+  - SciPy
+- **Data Visualization**: 
+  - Matplotlib
+  - Seaborn
+  - Plotly
+
 
 ## 📂 Dataset
 
@@ -15,11 +49,6 @@ This project builds a **Speech Emotion Recognition (SER) model** using the **Act
   * Audio resampled at **22,050 Hz**
   * Extracted **MFCC features** (13 coefficients)
   * Fixed-length sequences (padded or trimmed to 40 frames)
-
-## ⚙️ Features Extracted
-
-* **MFCCs (Mel-Frequency Cepstral Coefficients)**
-* Waveform and MFCC visualizations included for analysis.
 
 ## 🧠 Model Architecture
 
